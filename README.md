@@ -365,7 +365,7 @@ To run the tests:
 
 ### Contributors
 - [Brian Noguchi](https://github.com/bnoguchi)
-- [James Hight](https://github.com/bnoguchi)
+- [James Hight](https://github.com/JamesHight)
 
 ### License
 MIT License
