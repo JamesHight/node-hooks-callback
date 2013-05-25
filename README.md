@@ -31,7 +31,7 @@ methods.
 We can use `hooks` to add validation and background jobs in the following way:
 
 ```javascript
-var hooks = require('hooks')
+var hooks = require('hooks-callback')
   , Document = require('./path/to/some/document/constructor');
 
 // Add hooks' methods: `hook`, `pre`, and `post`
@@ -64,7 +64,7 @@ or `Document.post(methodName, fn)` will automatically and lazily change `Documen
 so that it plays well with `hooks`. An equivalent way to implement the previous example is:
 
 ```javascript
-var hooks = require('hooks')
+var hooks = require('hooks-callback')
   , Document = require('./path/to/some/document/constructor');
 
 // Add hooks' methods: `hook`, `pre`, and `post`
