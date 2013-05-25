@@ -1,10 +1,15 @@
-hooks
+hooks-callback
 ============
+
+Fork of hooks adding support for callback functions and modification of the callback variables.
+
+
+----
 
 Add pre and post middleware hooks to your JavaScript methods.
 
 ## Installation
-    npm install hooks
+    npm install hooks-callback
 
 ## Motivation
 Suppose you have a JavaScript object with a `save` method.
@@ -360,6 +365,7 @@ To run the tests:
 
 ### Contributors
 - [Brian Noguchi](https://github.com/bnoguchi)
+- [James Hight](https://github.com/bnoguchi)
 
 ### License
 MIT License
